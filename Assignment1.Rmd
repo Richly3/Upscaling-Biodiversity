@@ -12,7 +12,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## Assignment 1
+#{css, echo=FALSE}
+#P {
+#  font-size: 32px;
+#}
+
+
+```{css}
+.columns {display: flex;}
+h1 {
+  color: red;
+  background-color: beige;
+  font-size: 4.5em}
+h2 {
+  color: orange;
+  background-color: brown;
+  font-size: 2.5em}
+p {color: green;}
+````
+
+
+# Assignment 1
 
 ## 1. Assign the value of five to a variable called a and the value of two to a variable called b.
 
